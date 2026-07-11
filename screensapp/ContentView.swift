@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{Color.pink
+        ZStack{Color.purple
             
             Text("Chuanyi").font(.largeTitle)
 
