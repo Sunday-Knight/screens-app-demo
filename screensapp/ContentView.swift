@@ -10,9 +10,12 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack{Color.purple
-            
-            Text("Chuanyi").font(.largeTitle)
-
+            VStack {
+                Text("Chuanyi").font(.largeTitle)
+                Text("Zixi was here. hello")
+                    .font(.subheadline)
+                    .italic()
+            }
         }
         .padding()
         .ignoresSafeArea()
