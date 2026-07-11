@@ -14,7 +14,6 @@ struct ContentView: View {
                 Text("Chuanyi").font(.largeTitle)
                 Text("Zixi was here. hello")
                     .font(.subheadline)
-                    .bold()
             }
         }
         .padding()
